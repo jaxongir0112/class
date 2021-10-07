@@ -4,4 +4,9 @@ class Object:
     def __init__(self):
         print("Hello World)
 
-ob = Object
+    def show_info(self):
+    	print("ABdullo")
+    	
+    	
+ob = Object()
+ob.show_info()
